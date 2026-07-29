@@ -8,7 +8,7 @@ def get_home():
 
 connect = psycopg2.connect(
     host="sakura.proxy.rlwy.net",
-    port=52174,
+    port=5432,
     database="rooms",
     user="postgres",
     password="XUcHwwUHmaaFigVzOlpYIdrPZrGwpjKf"
